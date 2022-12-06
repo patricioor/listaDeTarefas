@@ -29,7 +29,7 @@ function scope() {
   key.addEventListener('keypress', e => {
     if (e.keyCode === 13) {
       if (!key.value) return
-      criaTarefa(key.value)
+      createAsseg(key.value)
     }
   })
   btnTarefa.addEventListener('click', e => {
