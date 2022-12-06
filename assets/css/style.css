@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 :root {
   --primary-color: rgb(255, 255, 255);
   --primary-color-darker: rgb(9, 48, 56);
@@ -8,7 +7,7 @@
 * {
   box-sizing: border-box;
   outline: 0;
-  font-family: 'Nerko One', sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
 }
 
 body {
