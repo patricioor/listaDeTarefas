@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'La Belle Aurore', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 3rem auto;
+  background:#EEAD2D;
+}
+
+section .head {
+  padding: 1rem ;
+}
+
+ul {
+  padding-block: 1rem;
+}
+
+h1, ul li.line {
+  text-decoration: underline blue;
+}
+
+button {
+  border:none;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 1rem;
+  color: white;
+  padding-inline: 0.5rem;
+  margin-left: 0.5rem;
+}
